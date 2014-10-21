@@ -1,0 +1,13 @@
+{% include head.html %}
+
+	<main>
+		<h1>{{ page.title }}</h1>
+
+		{{ content }}
+
+		<p> resume page kinda <a href ="{{ page.somelink }}">{{ page.some }}</a>.</p>
+	</main>
+
+	{% include nav.html %}
+
+{% include footer.html %}
