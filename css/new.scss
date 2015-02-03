@@ -1,0 +1,90 @@
+---
+# hmm frontmatter
+---
+// does this ^ have to be at bottom or it doesn't matter?
+
+// all I want to make is a blue box in the middle of the page. basic, bitch
+
+// reset yo
+//---------------------------------------------------------------------------80
+html, body, div, p {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+html, body {
+	width: 100%;
+}
+//---------------------------------------------------------------------------80
+
+//variables tho
+//---------------------------------------------------------------------------80
+
+$boxColor: #495563;
+$bgColor:  #090005;
+$textColor:#B2B7A1;
+
+$fontFamily: Arial, Verdana, sans-serif;
+
+//---------------------------------------------------------------------------80
+
+img.bg { // streched background image, responsive
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 800px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+body {
+	background-color: $bgColor;
+	font-family: $fontFamily;
+	font-size: 11pt;
+	color: $textColor;
+}
+
+// a glistening box in the middle of the page
+#box {
+	background-color: $boxColor;
+	opacity: .90;
+	height: 500px;
+	width: 500px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.social-media-list { // bruhhhh nesting werks doe
+
+	svg {
+		width: 50px;
+		height: 50px;
+	}
+
+}
+
+@import
+	//"reset" // resets page elements SOMETHING IN RESET IS MESSING UP FONT-FAMILY RULE USED HERE
+;
+
+/* Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base", //resets and everything. those are useful
+        "layout", // don't really need this, constructing own
+        "syntax-highlighting" // huh. not sure if this part of sass hilight install. prob was there already
+;*/
