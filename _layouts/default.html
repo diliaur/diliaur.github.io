@@ -2,18 +2,18 @@
 
 <img class="bg" src="/img/palmsky.jpg">
 
-<div class="wrapper">
-	<div id="box">
-		<div id="header">
-			<span class="site-header">{{ page.title }}</span>
-		</div>
-		<div id="content">
-			{{ content }}
-		</div>
-		<div id="foot-nav">
-			{% include nav.html %}
+<div class="outer">
+	<div class="middle">
+		<div class="inner">
+			<div id="header">
+				<span class="page-title">{{ page.title }}</span>
+			</div>
+			<div id="content">
+				{{ content }}
+			</div>
+			<div id="foot-nav">
+				&diams;
+			</div>
 		</div>
 	</div>
 </div>
-
-{% include footer.html %}

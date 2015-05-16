@@ -21,11 +21,19 @@ html, body {
 //variables tho
 //---------------------------------------------------------------------------80
 
-$boxColor: #495563;
-$bgColor:  #090005;
-$textColor:#B2B7A1;
+// Adobe Kuler-generated color scheme for background image (mood: Bright)
+$scheme-darkBlue1: rgb(3, 34, 139); // bright navy color like the defaul css blue
+$scheme-darkBlue2: rgb(18, 39, 91); // less saturated dark blue
+$scheme-lightBlue1: rgb(129, 187, 241); // less saturated sky blue
+$scheme-lightBlue2: rgb(140, 200, 243); // brighter sky blue
+$scheme-yellow: rgb(240, 234, 119); // slightly dusky lemon color
 
-$fontFamily: Arial, Verdana, sans-serif;
+$boxColor: #fff;
+$bgColor:  #090005;
+$textColor: $scheme-darkBlue2;
+
+$fontFamily: Arial, Verdana, Tahoma, sans-serif;
+$normalFontSize: 12px;
 
 //---------------------------------------------------------------------------80
 
@@ -54,37 +62,96 @@ img.bg { // streched background image, responsive
 
 body {
 	background-color: $bgColor;
+}
+
+html, body, div {
 	font-family: $fontFamily;
-	font-size: 11pt;
-	color: $textColor;
+	font-size: $normalFontSize;
+	color: $scheme-darkBlue2;
+}
+
+a {
+	color: $scheme-darkBlue1;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: $scheme-yellow;
 }
 
 // a glistening box in the middle of the page
-#box {
-	background-color: $boxColor;
-	opacity: .90;
-	height: 500px;
+.outer {
+	display: table;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.middle {
+	display: table-cell;
+	vertical-align:middle;
+}
+.inner {
+	background-color: rgba(lighten($scheme-lightBlue2,15%),.8);
+	height: auto;
 	width: 500px;
 	padding: 10px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-.social-media-list { // bruhhhh nesting werks doe
+.inner p {
+	padding-bottom: 5px;
+}
+.social-media-list {
 
 	svg {
-		width: 50px;
-		height: 50px;
+		width: 12px;
+		height: 12px;
 	}
 
 }
 
-@import
-	//"reset" // resets page elements SOMETHING IN RESET IS MESSING UP FONT-FAMILY RULE USED HERE
-;
+.page-title {
+	font-family: "Century Gothic", serif;
 
-/* Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base", //resets and everything. those are useful
-        "layout", // don't really need this, constructing own
-        "syntax-highlighting" // huh. not sure if this part of sass hilight install. prob was there already
-;*/
+	padding: 5px 0 0 5px;
+	font-size: 2em;
+	font-weight: bold;
+	display:block;
+	width: 100%;
+	color: $scheme-darkBlue1;
+	background-color: rgba($scheme-yellow,1);
+	border-bottom: 3px solid $scheme-lightBlue1;
+	margin-bottom: 20px;
+}
+
+#content {
+	padding: 0px 10px;
+	border-bottom: 1px dotted $textColor;
+}
+
+#blob {
+	//float: left;
+	//padding-right: 20px;
+	text-align: center;
+}
+
+// --------------------------------------------------------------------------80
+// footer
+
+.site-footer .wrapper {
+	padding: 0 20px;
+}
+
+.site-footer ul { display: inline; }
+.site-footer ul li {
+	display: inline;
+	list-style: none;
+}
+
+.site-footer ul li::after {
+	content: " + ";
+}
+.site-footer ul li:last-child::after {
+	content: "";
+}
