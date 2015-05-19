@@ -21,12 +21,22 @@ html, body {
 //variables tho
 //---------------------------------------------------------------------------80
 
-// Adobe Kuler-generated color scheme for background image (mood: Bright)
+// Adobe Kuler-generated color scheme for background image palmsky.jpg (mood: Bright)
 $scheme-darkBlue1: rgb(3, 34, 139); // bright navy color like the defaul css blue
 $scheme-darkBlue2: rgb(18, 39, 91); // less saturated dark blue
 $scheme-lightBlue1: rgb(129, 187, 241); // less saturated sky blue
 $scheme-lightBlue2: rgb(140, 200, 243); // brighter sky blue
 $scheme-yellow: rgb(240, 234, 119); // slightly dusky lemon color
+
+// Adobe Kuler generated color scheme
+// Image: ventura_succulent.jpg
+// Mood: Colorful
+$scheme-offwhite:rgb(243, 245, 241);
+$scheme-black:rgb(34, 32, 36);
+$scheme-slateGray:rgb(105, 121, 138);
+$scheme-green:rgb(129, 166, 149);
+$scheme-yellowGreen:rgb(210, 224, 78);
+
 
 $boxColor: #fff;
 $bgColor:  #090005;
@@ -36,6 +46,13 @@ $fontFamily: Arial, Verdana, Tahoma, sans-serif;
 $normalFontSize: 12px;
 
 //---------------------------------------------------------------------------80
+
+body { 
+    background-image: url('/img/ventura_succulent.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
 
 img.bg { // streched background image, responsive
   /* Set rules to fill background */
