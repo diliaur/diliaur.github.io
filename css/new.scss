@@ -40,7 +40,7 @@ $scheme-yellowGreen:rgb(210, 224, 78);
 
 $boxColor: #fff;
 $bgColor:  #090005;
-$textColor: $scheme-darkBlue2;
+$textColor: $scheme-black;
 
 $fontFamily: Arial, Verdana, Tahoma, sans-serif;
 $normalFontSize: 12px;
@@ -88,13 +88,13 @@ html, body, div {
 }
 
 a {
-	color: $scheme-darkBlue1;
+	color: $scheme-slateGray;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 a:hover {
-	background-color: $scheme-yellow;
+	background-color: $scheme-yellowGreen;
 }
 
 // a glistening box in the middle of the page
@@ -109,7 +109,7 @@ a:hover {
 	vertical-align:middle;
 }
 .inner {
-	background-color: rgba(lighten($scheme-lightBlue2,15%),.8);
+	background-color: rgba($scheme-offwhite,.8);
 	height: auto;
 	width: 500px;
 	padding: 10px;
@@ -117,7 +117,7 @@ a:hover {
 	margin-right: auto;
 }
 .inner p {
-	padding-bottom: 5px;
+	padding-bottom: 0;
 }
 .social-media-list {
 
@@ -128,17 +128,23 @@ a:hover {
 
 }
 
-.page-title {
-	font-family: "Century Gothic", serif;
+h1, h2, h3 {
+	font-family: Garamond, serif;
+}
 
-	padding: 5px 0 0 5px;
+.page-title {
+	font-family: "garamond", serif;
+	font-style: italic;
+	letter-spacing: 2px;
+	text-transform: italic;
+	text-align: center;
+	padding: 20px;
 	font-size: 2em;
 	font-weight: bold;
 	display:block;
-	width: 100%;
-	color: $scheme-darkBlue1;
-	background-color: rgba($scheme-yellow,1);
-	border-bottom: 3px solid $scheme-lightBlue1;
+	color: $scheme-black;
+	background-color: rgba($scheme-green,.4);
+	border-bottom: 3px solid $scheme-green;
 	margin-bottom: 20px;
 }
 
