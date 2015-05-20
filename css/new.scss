@@ -153,6 +153,12 @@ a:hover {
 	text-align: center;
 }
 
+@media all and (max-width:499px) {
+	.inner {
+		width: 100%;
+	}
+}
+
 // --------------------------------------------------------------------------80
 // footer
 
