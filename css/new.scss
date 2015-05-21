@@ -42,33 +42,36 @@ $boxColor: #fff;
 $bgColor:  #090005;
 $textColor: $scheme-black;
 
-$fontFamily: Arial, Verdana, Tahoma, sans-serif;
+$fontFamily: "Lucida Console", monospace;
 $normalFontSize: 12px;
 
 //---------------------------------------------------------------------------80
 
 body { 
-    background-image: url('/img/ventura_succulent.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
+    //background-image: url('/img/ventura_succulent.jpg');
+    //background-repeat: no-repeat;
+    //background-attachment: fixed;
+    //background-position: center center;
+    background-color: $scheme-offwhite;
 }
 
+/*
 img.bg { // streched background image, responsive
-  /* Set rules to fill background */
+  // Set rules to fill background
   min-height: 100%;
   min-width: 800px;
 	
-  /* Set up proportionate scaling */
+  // Set up proportionate scaling
   width: 100%;
   height: auto;
 	
-  /* Set up positioning */
+  // Set up positioning
   position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
 }
+*/
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
   img.bg {
@@ -77,14 +80,15 @@ img.bg { // streched background image, responsive
   }
 }
 
-body {
-	background-color: $bgColor;
-}
-
 html, body, div {
 	font-family: $fontFamily;
 	font-size: $normalFontSize;
-	color: $scheme-darkBlue2;
+	line-height: $normalFontSize * 1.3;
+	color: $scheme-green;
+}
+
+p {
+	margin-bottom: $normalFontSize;
 }
 
 a {
@@ -97,7 +101,13 @@ a:hover {
 	background-color: $scheme-yellowGreen;
 }
 
-// a glistening box in the middle of the page
+#bg-block {
+	background-color: rgba(#fff,.5);
+	width: 100%;
+	height: 50%;
+	float: left;
+}
+
 .outer {
 	display: table;
 	position: absolute;
@@ -109,15 +119,12 @@ a:hover {
 	vertical-align:middle;
 }
 .inner {
-	background-color: rgba($scheme-offwhite,.8);
+	//background-color: rgba(#fff,.8);
 	height: auto;
 	width: 500px;
 	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
-}
-.inner p {
-	padding-bottom: 0;
 }
 .social-media-list {
 
@@ -129,22 +136,25 @@ a:hover {
 }
 
 h1, h2, h3 {
-	font-family: Garamond, serif;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: $scheme-slateGray;
+}
+
+h4 {
+	text-transform: uppercase;
 }
 
 .page-title {
-	font-family: "garamond", serif;
-	font-style: italic;
-	letter-spacing: 2px;
-	text-transform: italic;
-	text-align: center;
+	font-family: "Lucida Sans Unicode", sans-serif;
 	padding: 20px;
 	font-size: 2em;
 	font-weight: bold;
 	display:block;
 	color: $scheme-black;
-	background-color: rgba($scheme-green,.4);
-	border-bottom: 3px solid $scheme-green;
+	//background-color: rgba($scheme-green,.4);
+	border-bottom: 1px dotted $scheme-green;
 	margin-bottom: 20px;
 }
 
@@ -166,21 +176,57 @@ h1, h2, h3 {
 }
 
 // --------------------------------------------------------------------------80
+// navigation
+
+.nav-primary ul {
+	width: 100%;
+	text-align: right;
+	padding: 0;
+}
+.nav-primary ul li {
+	display: inline;
+	list-style: none;
+	padding: 5px;
+	background-color: #fff;
+}
+
+.nav-primary a {
+	//font-family: "Lucida Sans Unicode", sans-serif;
+	text-transform: uppercase;
+	color: $scheme-darkBlue2;
+}
+
+.nav-primary a:hover {
+	background-color: transparent;
+	color: $scheme-yellowGreen;
+}
+
+// --------------------------------------------------------------------------80
 // footer
 
 .site-footer .wrapper {
-	padding: 0 20px;
+	padding: 20px;
+	//text-align: center;
 }
 
+.footer-col-wrapper {
+	margin: 0 auto;
+}
 .site-footer ul { display: inline; }
 .site-footer ul li {
-	display: inline;
-	list-style: none;
+	//display: inline;
+	//list-style: none;
 }
-
+/*
 .site-footer ul li::after {
 	content: " + ";
 }
 .site-footer ul li:last-child::after {
 	content: "";
+}
+*/
+
+.footer-col {
+	float: left;
+	width: 33%;
 }
