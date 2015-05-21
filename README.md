@@ -1,6 +1,3 @@
-diliaur.github.io
-=================
+# _A homepage_
 
-test github pages repo
-
-checking out how github pages works, no specific purpose for this repository (yet)
+Currently just some personal information and links to social media accounts. May in future incorporate blog posts or samples of work.
