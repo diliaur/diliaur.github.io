@@ -7,21 +7,16 @@ This is what I'm doing & interested in currently.
 
 ### School
 
-####__Spring 2015__ (_now_)
-
-* ICS 622: Systems Modelling and Analysis
-* ICS 624: Advanced Data Management
-
-####__Fall 2015__ (_future_)
+####__Fall 2015__
 
 * ICS 616: Information Architecture and Web Design
 * ICS 667: HCI Design Methods
 
 ### Work
-_Graduate Research Assistant_ at [UHERO](http://uhero.hawaii.edu)
+_Teaching Assistant_ at [UHM Information & Computer Sciences Dept.](http://www.ics.hawaii.edu)
 
-* Maintain Ruby on Rails database of economic time series data
-* Maintain websites
+* ICS 110: Introduction to Programming through Animation
+* ICS 464: Human-Computer Interaction I
 
 ### Interests
-Art (drawing), civil rights, social movements, (social) tagging practices
+Art (drawing), civil rights, social movements, (social) tagging practices, data visualization
