@@ -17,6 +17,7 @@ _Teaching Assistant_ at [UHM Information & Computer Sciences Dept.](http://www.i
 
 * ICS 110: Introduction to Programming through Animation
 * ICS 464: Human-Computer Interaction I
+* Office hours: Weds. & Thurs. 2-3pm or by appointment
 
 ### Interests
 Art (drawing), civil rights, social movements, (social) tagging practices, data visualization
