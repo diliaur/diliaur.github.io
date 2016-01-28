@@ -3,7 +3,7 @@ layout: default
 title: Hi, I'm Diliaur.
 ---
 
-I'm a grad student and I do stuff, kind of. Check out the Twitter <a href="http://www.github.com/diliaur/tw">tag recommender</a> I'm working on. It <strike>sucks</strike> needs some work and the process is ongoing.
+I'm a grad student and I do stuff, kind of. Check out the Twitter <a href="http://www.github.com/diliaur/tw">tag recommender</a> I made for a class. It <strike>sucks</strike> needs some work and the process is <strike>ongoing</strike> stalled for now.
 
 Follow me on Twitter (<a href="http://www.twitter.com/diliaur">@diliaur</a>) for random minutiae, social justice news, and stuff to do with computing.
 
