@@ -7,17 +7,18 @@ This is what I'm doing & interested in currently.
 
 ### School
 
-####__Fall 2015__
+#### Spring 2016
 
-* ICS 616: Information Architecture and Web Design
-* ICS 667: HCI Design Methods
+* SOC 476 & 476L: Social Statistics & Lab
+* COM 634: Social Media
+* ICS 699: Independent study. Tentative topic: Palauan social media use as a marker for cultural change.
 
 ### Work
 _Teaching Assistant_ at [UHM Information & Computer Sciences Dept.](http://www.ics.hawaii.edu)
 
-* ICS 110: Introduction to Programming through Animation
-* ICS 464: Human-Computer Interaction I
-* Office hours: Weds. & Thurs. 2-3pm or by appointment
+* ICS 110D: Introduction to Programming through Animation
+* ICS 312: Machine & Systems Programming (grader)
+* Office hours: Weds. & Thurs. 3-4pm or by appointment
 
 ### Interests
-Art (drawing), civil rights, social movements, (social) tagging practices, data visualization
+Art (drawing), civil & human rights, social movements, (social) tagging practices, data visualization
