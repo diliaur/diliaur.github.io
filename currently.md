@@ -21,4 +21,4 @@ _Teaching Assistant_ at [UHM Information & Computer Sciences Dept.](http://www.i
 * Office hours: Weds. & Thurs. 3-4pm or by appointment
 
 ### Interests
-Art (drawing), civil & human rights, social movements, (social) tagging practices, data visualization
+Art (drawing), photography, civil & human rights, social movements, (social) tagging practices, data visualization
