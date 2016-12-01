@@ -7,6 +7,8 @@ I'm a grad student and I do stuff, kind of. Check out the Twitter <a href="http:
 
 Follow me on Twitter (<a href="http://www.twitter.com/diliaur">@diliaur</a>) for random minutiae, social justice news, and stuff to do with computing.
 
+Right now I'm working on a compilation of information on the [Standing Rock protest](/standingrock.html) of the Dakota Access Pipeline.
+
 You can also check out what I'm [currently](/currently.html) up to.
 
 There isn't much here just yet. Enjoy a space blob!

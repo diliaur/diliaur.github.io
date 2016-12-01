@@ -202,6 +202,35 @@ h4 {
 }
 
 // --------------------------------------------------------------------------80
+// text element styling (titles, quotes, the like)
+.quote {
+	margin-left: 15px;
+	background-color: #eee;
+	display: block;
+	padding: 10px;
+	font-family: "Arial", "sans-serif";
+	font-size: 12pt;
+	line-height: 14pt;
+}
+.source {
+	font-style: italic;
+	margin-left: 15px;
+	background-color: #eee;
+	padding: 10px;
+}
+.source::before {
+	content: "Source: ";
+}
+.question {
+	font-weight: bold;
+	color: $scheme-slateGray;
+	display: block;
+	margin: 1em 0;
+}
+.headline { // used for standalone links to sources
+
+}
+// --------------------------------------------------------------------------80
 // footer
 
 .site-footer .wrapper {
