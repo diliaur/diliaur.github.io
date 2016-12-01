@@ -9,7 +9,7 @@ Here is a compilation of links to understanding what's going on at Standing Rock
 
 *Last updated Dec. 1, 2016.*
 
-###Background
+### Background
 
 <span class="question">What is Standing Rock? Where is it?</span>
 <span class="quote">
@@ -48,9 +48,9 @@ Why are people protesting the DAPL?
 
 The construction of the DAPL passes into tradtionally sovereign Native American tribal lands, which already have been decreased in a long history of the US government disrespect and repeal of land treaties. The Standing Rock Tribe not only holds these lands sacred and sovereign, but also the waterways which give life to the people living on the land, which would be poisoned by the oil pipeline construction and operation.
 
-###Media Coverage, Opinions, Viewpoints
+### Media Coverage, Opinions, Viewpoints
 
-###Internet Activism and Social Media
+### Internet Activism and Social Media
 
 * Hash tags in use
 	* _ #StandingRock #StandWithStandingRock #WaterIsLife #NoDAPL #DAPL
@@ -58,5 +58,5 @@ The construction of the DAPL passes into tradtionally sovereign Native American 
 	* Facebook (?), Twitter, Tumblr, Reddit(?) and others.
 * What is the sentiment on each of these sites? How are people discussing it? How are people utilizing these sites to spread information about the protest and the DAPL, either in support or opposition?
 
-###Government and Organizational Response to the Protest
+### Government and Organizational Response to the Protest
 
