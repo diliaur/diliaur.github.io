@@ -5,7 +5,7 @@ title: Standing Rock Protest of the DAPL
 
 Here is a compilation of links to understanding what's going on at Standing Rock, in the Dakotas.
 
-***This page is under construction***
+***Disclaimer: This page is under construction, needs citations, and more research***
 
 <i>Last updated Dec. 1, 2016.</i>
 
