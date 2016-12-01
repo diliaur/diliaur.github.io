@@ -50,13 +50,19 @@ The construction of the DAPL passes into tradtionally sovereign Native American 
 
 ### Media Coverage, Opinions, Viewpoints
 
-### Internet Activism and Social Media
+### Social Movements and Social Media
 
 * Hash tags in use
 	* _ #StandingRock #StandWithStandingRock #WaterIsLife #NoDAPL #DAPL
 * Conversations on:
 	* Facebook (?), Twitter, Tumblr, Reddit(?) and others.
 * What is the sentiment on each of these sites? How are people discussing it? How are people utilizing these sites to spread information about the protest and the DAPL, either in support or opposition?
+* Practices + issues (seen so far)
+	* Fake news
+	* Donations
+	* Discourse
+* Other interests
+	* Timeline of online activity regarding Standing Rock and DAPL
 
 ### Government and Organizational Response to the Protest
 
