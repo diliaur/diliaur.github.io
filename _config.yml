@@ -3,11 +3,15 @@ title: Diliaur's Homepage
 email: Diliaur@hawaii.edu
 description: > # this means to ignore newlines until "baseurl:"
   A comp sci student messing around with programming things. 
-  Hopefully I learn something along the way.
+  Learning tons of stuff along the way.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "/diliaur.github.io" # the base hostname & protocol for your site
+author: Diliaur Tellei
 twitter_username: diliaur
 github_username:  diliaur
 
 # Build settings
 markdown: kramdown
+
+gems:
+- jekyll-seo-tag
