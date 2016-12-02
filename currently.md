@@ -20,4 +20,4 @@ This is what I'm doing & interested in currently.
 _Web Resources GA_ at [UHM Center for Southeast Asian Studies](http://www.cseashawaii.org)
 
 ### Interests
-Art (drawing), photography, civil & human rights, social movements, culture and computing
+Art (drawing), photography, civil & human rights, social movements, culture and computing, cars
