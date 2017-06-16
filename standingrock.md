@@ -56,7 +56,6 @@ The construction of the DAPL passes into tradtionally sovereign Native American 
 	* _ #StandingRock #StandWithStandingRock #WaterIsLife #NoDAPL #DAPL
 * Conversations on:
 	* Facebook (?), Twitter, Tumblr, Reddit(?) and others.
-* What is the sentiment on each of these sites? How are people discussing it? How are people utilizing these sites to spread information about the protest and the DAPL, either in support or opposition?
 * Practices + issues (seen so far)
 	* Fake news
 	* Donations
@@ -65,4 +64,10 @@ The construction of the DAPL passes into tradtionally sovereign Native American 
 	* Timeline of online activity regarding Standing Rock and DAPL
 
 ### Government and Organizational Response to the Protest
+
+### Research Questions
+* What has been the activity on [given platform] over time?
+	* Is there fatigue over time? I.e., do posts decrease in the community? what about from actively involved, not just casual, participants?)
+	* If there is fatigue, does it coincide with new coverage/news fatigue?
+* What is the sentiment regarding the protests & pipeline on [given platform]? How are people discussing it? How are people utilizing social media sites to spread information about the protest and the DAPL, either in support or opposition?
 
