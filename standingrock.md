@@ -50,6 +50,8 @@ The construction of the DAPL passes into tradtionally sovereign Native American 
 
 ### Media Coverage, Opinions, Viewpoints
 
+/
+
 ### Social Movements and Social Media
 
 * Hash tags in use
@@ -64,6 +66,8 @@ The construction of the DAPL passes into tradtionally sovereign Native American 
 	* Timeline of online activity regarding Standing Rock and DAPL
 
 ### Government and Organizational Response to the Protest
+
+/
 
 ### Research Questions
 * What has been the activity on [given platform] over time?
