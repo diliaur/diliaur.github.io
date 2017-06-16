@@ -11,6 +11,4 @@ Right now I'm working on a compilation of information on the [Standing Rock prot
 
 You can also check out what I'm [currently](/currently.html) up to.
 
-There isn't much here just yet. Enjoy a space blob!
-
 <p id="blob"><a href="http://www.spacefem.com/blobs/"><img src="img/purpleblob.gif" width="90" height="98" border="0" alt="Adopt your own useless blob!"></a></p>
