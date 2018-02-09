@@ -3,11 +3,13 @@ layout: default
 title: Standing Rock Protest of the DAPL
 ---
 
+*Last updated Feb. 8, 2018.*
+
+**This project is on hiatus and has not been updated since 2016.**
+
 Here is a compilation of links to understanding what's going on at Standing Rock, in the Dakotas.
 
-***Disclaimer: This page is under construction, needs citations, and more research***
-
-*Last updated Dec. 1, 2016.*
+**Disclaimer: This page is under construction, needs citations, and more research**
 
 ### Background
 
