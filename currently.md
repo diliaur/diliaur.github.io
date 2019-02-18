@@ -5,15 +5,16 @@ title: Currently
 
 ### School
 
-#### Fall 2018
+#### Spring 2019
 
 * Continuing capstone research. Topic: Digital supplementation of cultural practices; specifically, Palauan genealogy knowledge practices. You can read more on my capstone-oriented [research blog](http://palaugen.wordpress.com).
-* ICS 691E: Data Science
+* COM 660: ICT Policy & Planning
+* LIS 676: Creating Digital Libraries
 
 ### Extracurricular Projects
 
 * [Island Ark Project](http://www.islandarkproject.org): A web template to encourage digital preservation of intangible cultural heritage.
-* Photography: Check out my [instagram](http://www.instagram.com/diliaur.jpg).
+* Portrait phtotography: [instagram](http://www.instagram.com/diliaur.jpg).
 
 ### Work
 _Web Resources GA_ at [UHM Center for Southeast Asian Studies](http://www.cseashawaii.org)
