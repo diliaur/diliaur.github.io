@@ -1,0 +1,58 @@
+body {
+  font-family: "Helvetica Neue", "Arial", "sans-serif";
+}
+b {
+  /* color: #3A405A; */
+}
+#name h1 {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3em;
+  padding-bottom: 0;
+  background-color: #3A405A;
+  color: white;
+  padding-left: .25em;
+}
+h2,h3,h4 {
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  color: #3A405A;
+}
+h3,h4 {;
+  padding: 0 1em;
+  background-color: #99B2DD;
+  display:inline;
+}
+h3:after, h4:after { /* insert line break after inline headers */
+  content: "\A";
+  white-space: pre;
+}
+#byline {
+  padding-top:0;
+}
+
+a,
+a:link,
+a:visited {
+  color: #4B6591;
+}
+a:hover {
+  color: #4B6591;
+  text-decoration: underline;
+}
+.photo a,
+.photo a:link,
+.photo a:visited,
+.photo a:active {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* fix for wonky image links in columns (semantic ui) */
+div.column a img {
+  width:100%;
+}
