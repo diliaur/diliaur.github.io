@@ -3,3 +3,7 @@ layout: default
 ---
 
 {% include code-projects.html %}
+
+{% if page.url != "/" %}
+  {% include design-projects.html %}
+{% endif %}

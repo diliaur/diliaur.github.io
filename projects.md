@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Code Projects
+title: Projects
 permalink: /projects/
 ---
+
+## Code
 
 ### UH CSEAS Website
 ![cseashawaii.org homepage](/img/cseashawaii.png)
@@ -30,3 +32,19 @@ Filterable & searchable database of Southeast Asia-related scholarships. It pull
 This is a custom featured post slider (WordPress plugin) built for UH CSEAS, alongside the theme. There are several third-party slider plugins, but none did exactly what we needed (in terms of how to feature posts) as well as matched our website design. Thus, "A Simple Slider" was born.
 
 **Used**: JavaScript, PHP, HTML, CSS
+
+---
+
+## Design
+
+### GSO *Moonlight* Screening and Discussion
+
+![Moonlight poster](/img/moonlight.jpg)
+
+### East-West Center 16th International Graduate Student Conference Poster and Booklet Cover
+
+Designed in consultation with EWC b
+
+![IGSC booklet](/img/igsc16_booklet.jpg)
+
+![IGSC poster](/img/igsc16_poster.png)
