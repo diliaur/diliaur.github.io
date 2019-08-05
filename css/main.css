@@ -1,0 +1,80 @@
+html {
+  height:100%;
+}
+body {
+  background-color:#FFECEF;
+  font-family:"Roboto", "Verdana", sans-serif;
+  font-size:16pt;
+  color:#2F0800;
+  height:100%;
+  padding:0;margin:0;
+}
+#container {
+  min-height:60%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+}
+#title {
+  font-family:"Abril Fatface", "Georgia", serif;
+  font-size:5em;
+  color:#FF611E;
+}
+img {
+  border:1px solid #2F0800;
+  /* align-self:center; */
+  margin:0 auto;
+  width:100%;
+}
+h3 {
+  padding-top:1em;
+  /* font-size:12pt; */
+  /* text-transform:uppercase; */
+  
+  color:#C04713;
+}
+nav,footer {
+  height:20%;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+footer {
+  font-size:.8em;
+}
+/* links */
+a:link, a:active, a:visited {
+  color:#FF611E;
+}
+a:hover {
+  color:#2F0800;
+}
+/* nav links */
+nav a:link{
+  text-decoration:none;
+  font-weight:bold;
+}
+nav a:link,
+nav a:active,
+nav a:visited {
+  color:#2F0800;
+}
+#content {
+  max-width:600px;
+  text-align:left;
+  align-self:center;
+  padding:0 1em;
+}
+#code-projects {
+  display:flex;
+  flex-wrap:wrap;
+}
+/* .project-image, .project-description {
+  flex: 1 2 50%;
+} */
+.project-description {
+  text-align:left;
+}
