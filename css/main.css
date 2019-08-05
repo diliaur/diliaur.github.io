@@ -21,6 +21,11 @@ body {
   font-size:5em;
   color:#FF611E;
 }
+@media screen and (max-width: 650px) {
+  #title {
+    font-size:4em;
+  }
+}
 img {
   border:1px solid #2F0800;
   /* align-self:center; */
@@ -31,7 +36,7 @@ h3 {
   padding-top:1em;
   /* font-size:12pt; */
   /* text-transform:uppercase; */
-  
+
   color:#C04713;
 }
 nav,footer {
