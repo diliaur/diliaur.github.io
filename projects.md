@@ -43,8 +43,6 @@ This is a custom featured post slider (WordPress plugin) built for UH CSEAS, alo
 
 ### East-West Center 16th International Graduate Student Conference Poster and Booklet Cover
 
-Designed in consultation with EWC b
-
 ![IGSC booklet](/img/igsc16_booklet.jpg)
 
 ![IGSC poster](/img/igsc16_poster.png)
