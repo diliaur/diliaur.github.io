@@ -1,0 +1,56 @@
+.square-links {
+  display:flex;
+  margin:1em;
+  justify-content: space-around;
+  align-self: center;
+  align-items:center;
+  width: 80%;
+}
+.cell-bg {
+  width: 35%;
+  min-height:100px;
+  padding: 5%;
+  background-color: #4D78CC;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.cell-title {
+  color:#fff;
+  font-size: 24pt;
+}
+
+/** Animation **/
+
+.cell-bg:hover  > .cell-title {
+  animation: bounce 400ms 1; /* name, timing, repeat */
+  animation-timing-function: ease-in;
+}
+@keyframes bounce {
+  /* cute lil bounce */
+  25% {
+    position:relative;
+    top: -10px;
+  }
+  50% {
+    position: relative;
+    top:0;
+  }
+  85% {
+    position: relative;
+    top: -5px;
+  }
+}
+
+/** Adjust link color **/
+
+.square-links a,
+.square-links a:active,
+.square-links a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.square-links a:hover {
+  color:#fff;
+  text-decoration:underline;
+}

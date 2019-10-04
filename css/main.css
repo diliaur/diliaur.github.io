@@ -32,11 +32,17 @@ img {
   margin:0 auto;
   width:100%;
 }
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.25em;
+  color: #4D78CC;
+}
 h3 {
-  padding-top:1em;
+  /* padding-top:1em; */
   /* font-size:12pt; */
   /* text-transform:uppercase; */
-
   color:#C04713;
 }
 nav,footer {
