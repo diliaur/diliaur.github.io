@@ -5,5 +5,5 @@
 layout: default
 title: Diliaur Tellei
 ---
-Front-end developer and designer.
+Data practitioner and artist.
 I create in code, pixels, and paint.
